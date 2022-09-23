@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+ --bg-primary: #EFF1FA; 
+ --button-primary: #0A3871;
+ --button-secundary: ;
+}
+
+body{
+    background-color: var(--bg-primary);
+
+}
+header img {
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+#criptografar #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#criptografar #container #mensagem {
+    /* position: absolute;
+
+    left: 1000px;
+    top: 40px; */
+    width: 400px;
+    height: 800px;
+    padding: 15px;
+    resize: none;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-image: url(images/Boneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 32px;
+    border: none;
+}
+
+#criptografar #container #texto1 #texto {
+
+    /* position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px; */
+    display: flex;
+    margin-right: 10rem;
+    margin-bottom: 15rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+    border: none;
+    resize: none;
+    background-color: var(--bg-primary);
+    color: #0A3871;
+}
+
+#areabutton{
+    background-color: red;
+}
+
+.criptografar{
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+color: white;
+text-align: center;
+}
+
+.descriptografar {
+    padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+/* Light gray */
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+border-radius: 24px;
+color: #0A3871;
+text-align: center;
+
+}
+
+#button {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+#button p{
+  color:  #495057;
+}

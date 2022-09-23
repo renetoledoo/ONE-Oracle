@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/LogoAlura.png" alt="Logo Alura">
+    </header>
+    <section id="criptografar">
+        <div id=container>
+            <div id="texto1">
+            <textarea id="texto" cols="30" rows="10"  placeholder="Digite seu texto"></textarea>
+            <p>Apenas letras minúsculas e sem acento.</p>
+            <button onclick="btnEncriptar()" class="criptografar">criptografar</button>
+            <button onclick="btnDescript()" class="descriptografar">Descriptografar</button>   
+        </div>
+            <div id="texto2">
+            <textarea  cols="30" rows="10"  id="mensagem"></textarea>
+            </div>
+        </div>
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>
